@@ -1,0 +1,20 @@
+PODS:
+  - Swinject (2.8.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Swinject
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Swinject
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 0f8f1ab30d9d616952bc2dfa58207418978a49f2
+
+COCOAPODS: 1.10.1
