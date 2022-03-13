@@ -9,3 +9,7 @@ https://github.com/HyperVishnu/WeatherApp.git
 5. Created Viewmodel. So, it will be more helpful for understanding and also we can write test cases in easy way.
 6. If you see, I have written only UI part in ViewControllers and all the functionalities, coditions are written in ViewModel. So, these methods can be called any where by passing required data.
 
+
+
+https://user-images.githubusercontent.com/101444092/158061144-0ff2f7ba-d494-43c3-9099-f9080295ac76.mov
+
