@@ -13,15 +13,15 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var secondLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
     @IBOutlet weak var fourthLabel: UILabel!
-    public var weatherInfo: WeatherResponseModel!
-    
+    var weatherInfo: WeatherResponseModel!
+    var selectedTemp: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
     }
     
     func setup() {
-        firstLabel.text = String(weatherInfo.main?.temp ?? 0)
+        firstLabel.text = selectedTemp ?? String(weatherInfo.main?.temp ?? 0)
         secondLabel.text = "Feels Like: \(String(weatherInfo.main?.feelsLike ?? 0))"
         thirdLabel.text = weatherInfo.weather?[0].weatherDescription ?? ""
         fourthLabel.text = weatherInfo.weather?[0].main ?? ""

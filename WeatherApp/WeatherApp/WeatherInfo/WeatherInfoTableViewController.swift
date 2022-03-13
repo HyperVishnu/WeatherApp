@@ -54,6 +54,7 @@ class WeatherInfoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = DetailsViewController()
         vc.weatherInfo = weatherInfo
+        vc.selectedTemp = arrayData[indexPath.row].value
         navigationController?.pushViewController(vc, animated: true)
     }
 }
